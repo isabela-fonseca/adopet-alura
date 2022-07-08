@@ -1,0 +1,41 @@
+.conteudo {
+    text-align: center;
+    width: 15.4em;
+    margin: 2em auto;
+    flex: 1; /* flex-grow Para jogar o footer pra baixo e o conteudo ocupar a página sem sobrar espaço embaixo */
+}
+
+.conteudo__titulo {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+}
+
+.conteudo__texto {
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 1.5rem 0;
+}
+
+.conteudo__link {
+    margin: 0 auto 1em; /* espaçamento entre os 'botoes'*/
+    
+    display: block;
+    background-color: var(--coral);
+    border-radius: 6px;
+    padding: 0.5rem;
+    width: 11.25rem;
+
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    text-decoration: none; /* retinar o sublinhado*/
+    font-size: 16px;
+
+}

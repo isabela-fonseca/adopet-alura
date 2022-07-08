@@ -1,0 +1,7 @@
+.cabecalho {
+    padding: 3em;
+}
+
+.cabecalho__imagem {
+    padding-right: 3.6em; /* espaçar as imagens entre si*/
+}
