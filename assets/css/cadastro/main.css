@@ -1,0 +1,61 @@
+.cadastro {
+    text-align: center;
+    width: 100%;
+    margin: 1.5em auto -7.5em; /* Solução que achei para centralizar a imagem de background com o texto dessa pagina --- SOLUÇÃO MELHOR???*/
+    flex: 1; /* flex-grow Para jogar o footer pra baixo e o conteudo ocupar a página sem sobrar espaço embaixo */
+    font-style: normal;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cadastro__texto {
+    color: var(--azul);
+    line-height: 21px;
+    margin: 1.0rem 0;
+    width: 100%;
+}
+
+.formulario {
+    color: var(--cinza);
+    line-height: 24px;   
+    padding: 1rem;
+}
+
+.input-padrao {
+    background: var(--cinza-claro-fundos);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    
+    padding: 1rem;
+    margin: 0.4em auto 1em;
+    width: 100%;
+}
+
+.input-padrao::placeholder{
+    color: var(--cinza-claro);
+}
+
+.botao {
+    margin: 1em auto 1em; /* espaçamento entre os 'botoes'*/
+    
+    display: block;
+    background-color: var(--coral);
+    border-radius: 6px;
+    border: none;
+    padding: 1rem;
+    width: 11.25rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    color: var(--branco);
+    text-decoration: none; /* retinar o sublinhado*/
+}
+
+.botao:hover {
+
+}

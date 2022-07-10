@@ -1,0 +1,33 @@
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F6F6F6;
+    --branco: #FFFFFF;
+
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-image: url(/assets/imagens/Patas.svg), url(/assets/imagens/FormaTopo.svg);
+    background-repeat: no-repeat;
+    background-position: top right, top left;
+    min-height: 100vh; /* p/ conteúdo pegar no mínimo a altura da tela */
+}
+/*COLOQUEI A IMAGEM AQUI PARA CENTRALIZAR ELA COM O RESTO DA PAGINA (TEXTO E FORMULARIO) -- TEM SOLUÇÃO MELHOR?? */
+main{
+    background-image: url(/assets/imagens/FormaMeioEsquerda.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+.background-branco {
+    background-color: var(--branco);
+    /* Torna o body flexivel para adicionar propriedades em outros locais*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
