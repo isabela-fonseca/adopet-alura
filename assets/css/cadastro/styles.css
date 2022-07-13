@@ -15,17 +15,10 @@
 body {
     background-image: url(/assets/imagens/Patas.svg), url(/assets/imagens/FormaTopo.svg), url(/assets/imagens/FormaMeioEsquerda.svg);
     background-repeat: no-repeat;
-    background-position: top right, top left,left 80%;
+    background-position: top right, top left,left 70%;
     min-height: 100vh; /* p/ conteúdo pegar no mínimo a altura da tela */
 }
-/*COLOQUEI A IMAGEM AQUI PARA CENTRALIZAR ELA COM O RESTO DA PAGINA (TEXTO E FORMULARIO) -- TEM SOLUÇÃO MELHOR?? */
-/*
-section{
-    background-image: url(/assets/imagens/FormaMeioEsquerda.svg);
-    background-repeat: no-repeat;
-    background-position: center left;
-}
-*/
+
 .background-branco {
     background-color: var(--branco);
     /* Torna o body flexivel para adicionar propriedades em outros locais*/

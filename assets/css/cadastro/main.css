@@ -2,23 +2,26 @@
     text-align: center;
     height: 80vh;
     margin-top: 2em;
+
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-style: normal;
 }
 
 .cadastro__texto {
     color: var(--azul);
     line-height: 21px;
     margin: 1.0em 2em;
+    font-size: 16px;
 }
 
-.contaiber-formulario{
+.container-fomulario {
     margin: 2em 0;
 }
 
-.contaiber-formulario__rotulo {
-    color: var(--cinza);
-    line-height: 24px;   
-    padding: 0.5rem;
+.container-formulario__titulo {
     display: block;
+    padding: 0.5rem;
 }
 
 .container-formulario__campo {
@@ -26,11 +29,6 @@
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
     border: none;
-    
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    
     padding: 0.5em;
     width: 60%;
 }
@@ -41,7 +39,7 @@
     text-align: center;
 }
 
-.botao {
+.formulario__botao {
     margin: 1em auto 1em; /* espaçamento entre os 'botoes'*/
     
     display: block;
@@ -54,8 +52,15 @@
 
     color: var(--branco);
     text-decoration: none; /* retinar o sublinhado*/
+    
 }
 
-.botao:hover {
+.formulario-botao:hover:hover {
+    
+}
 
+@media screen and (min-width: 768px) {
+    .cadastro__texto {
+        margin: 1em 6em;
+    }
 }
