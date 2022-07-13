@@ -1,0 +1,71 @@
+@import url(/assets/css/pagina-inicial/reset.css);
+@import url(/assets/css/pagina-inicial/header.css);
+@import url(/assets/css/home/styles.css);
+@import url(/assets/css/cadastro/footer.css);
+
+
+.cabecalho__imagem-perfil {
+    position: absolut;
+    width: 40px;
+    height: 40px;
+    left: 283px;
+    top: 40px;
+}
+
+.catalogo__texto {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    
+    line-height: 21px;
+    margin: 3em 6em;
+    font-size: 16px;
+}
+
+.catalogo__pets {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1rem;
+}
+
+.catalo__pets-nome {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.catalogo__pets-dados {
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    list-style-type: none;
+
+}
+
+.catalogo__pets-cidade {
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.catalogo__contato {
+    font-family: var(--fonte-principal);
+    color: var(--cinza);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}

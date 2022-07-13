@@ -1,0 +1,37 @@
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundos: #F6F6F6;
+    --branco: #FFFFFF;
+
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-image: url(/assets/imagens/FormaTopo.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 100vh; /* p/ conteúdo pegar no mínimo a altura da tela */
+}
+
+.background-branco {
+    background-color: var(--branco);
+    /* Torna o body flexivel para adicionar propriedades em outros locais*/
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 2.3em 0em;
+    }
+
+    body {
+        font-size: 18px;
+    }
+}
