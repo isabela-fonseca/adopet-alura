@@ -1,0 +1,72 @@
+@import url(/assets/css/pagina-inicial/reset.css);
+@import url(/assets/css/pagina-inicial/header.css);
+@import url(/assets/css/cadastro/styles.css);
+@import url(/assets/css/pagina-inicial/footer.css);
+
+
+.login {
+    text-align: center;
+    height: 80vh;
+    margin-top: 2em;
+
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+}
+
+.login__texto {
+    color: var(--azul);
+    line-height: 21px;
+    margin: 1.0em 2em;
+    font-size: 16px;
+}
+
+.formulario{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container-fomulario {
+    margin: 2em 0;
+}
+
+.container-formulario__titulo {
+    display: block;
+    padding: 0.5rem;
+}
+
+.container-formulario__campo {
+    background: var(--cinza-claro-fundos);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border: none;
+    padding: 0.5em;
+    width: 60%;
+}
+
+.container-formulario__campo::placeholder{
+    color: var(--cinza-claro);
+    font-size: 12px;
+    text-align: center;
+}
+
+.container-formulario__ancora {
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;  
+    color: var(--coral);
+}
+.formulario__botao{
+    background-color: var(--coral);
+    border-radius: 6px;
+    border: none;
+    padding: 1rem;
+    width: 11.25rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    color: var(--branco);
+    text-decoration: none; /* retinar o sublinhado*/
+    margin: 1em auto 1em;
+}

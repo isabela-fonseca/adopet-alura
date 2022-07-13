@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopet - Login | Alura</title>
-</head>
-<body>
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/login/login.css">
+</head>
+
+<body class="background-azul">
+        <header class="cabecalho">
+            <a href="#"><img src="/assets/imagens/Casa.svg" alt="Página Inicial" class="cabecalho__imagem"></a>
+            <a href="#"><img src="/assets/imagens/Mensagens.svg" alt="Caixa de Mensagens" class="cabecalho__imagem"></a>
+        </header>
+
+        <section class="login">
+            <img src="/assets/imagens/LogoAzul.svg" alt="Logo Adopet Azul">
+            <p class="login__texto">Já tem conta? Faça seu login:</p>
+
+            <form class="formulario">
+                <div class="container-formulario">
+                    <label for="email" class="container-formulario__titulo">Email</label>
+                <input type="email" name="email" id="email" class="container-formulario__campo" required placeholder="Insira seu email">
+                </div>
+
+                <div class="container-formulario">
+                    <label for="senha" class="container-formulario__titulo">Senha</label>
+                    <input type="password" name="senha" id="senha" class="container-formulario__campo" required placeholder="Insira sua senha">    
+                </div>
+                <a href="#" class="container-formulario__ancora">Esqueci minha senha</a>
+            </form>
+            <button type="button" onclick="#" class="formulario__botao">Cadastrar</button>
+        </section>
+
+        <footer class="rodape">
+            <p class="rodape__texto">2022 - Desenvolvido por Alura.</p> <!-- COLOCAR MEU LINKEDIN??? -->
+        </footer>
 </body>
 </html>
