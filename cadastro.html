@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/assets/css/cadastro/reset.css">
     <link rel="stylesheet" href="/assets/css/cadastro/styles.css">
     <link rel="stylesheet" href="/assets/css/cadastro/header.css">
-    <link rel="stylesheet" href="/assets/css/cadastro/main.css">
+    <link rel="stylesheet" href="/assets/css/cadastro/section.css">
     <link rel="stylesheet" href="/assets/css/cadastro/footer.css">
 </head>
 <body class="background-branco">
@@ -21,26 +21,35 @@
         <a href="#"><img src="/assets/imagens/Mensagens.svg" alt="Caixa de Mensagens" class="cabecalho__imagem"></a>
     </header>
 
-    <main class="cadastro">
+    <section class="cadastro">
         <img src="/assets/imagens/LogoAzul.svg" alt="Logo Adopet Azul">
-        <!-- <h1 class="cadastro__titulo"></h1> -->
-        <p class="cadastro__texto">Ainda não tem cadastro? <br>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+        <p class="cadastro__texto">Ainda não tem cadastro?</p>
+        <p class="cadastro__texto">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
         
         <form class="formulario">
-            <label for="email" class="formulario__titulo">Email</label>
-            <input type="email" name="email" id="email" class="input-padrao" required placeholder="Escolha seu melhor email">
+            <div class="container-fomulario">
+                <label for="email" class="container-formulario__titulo">Email</label>
+                <input type="email" name="email" id="email" class="container-formulario__campo" required placeholder="Digite seu melhor email">
+            </div>
+
+            <div class="container-fomulario">
+                <label for="nome" class="container-formulario__titulo">Nome</label>
+                <input type="text" name="nome" id="nome" class="container-formulario__campo" required placeholder="Digite seu nome completo">    
+            </div>
+
+            <div class="container-fomulario">
+                <label for="senha" class="container-formulario__titulo">Senha</label>
+                <input type="password" name="senha" id="senha" class="container-formulario__campo" required placeholder="Crie uma senha">
+            </div>
             
-            <label for="nome" class="formulario__titulo">Nome</label>
-            <input type="text" name="nome" id="nome" class="input-padrao" required placeholder="Digite seu nome completo">
-            
-            <label for="senha" class="formulario__titulo">Senha</label>
-            <input type="password" name="senha" id="senha" class="input-padrao" required placeholder="Crie uma senha">
-            
-            <label for="senha" class="formulario__titulo">Confirme sua senha</label>
-            <input type="password" name="senha" id="senha" class="input-padrao" required placeholder="Repita a senha criada acima">
+            <div class="container-fomulario">
+                <label for="confirma-senha" class="formulario__titulo">Confirme sua senha</label>
+                <input type="password" name="confirma-senha" id="confirma-senha" class="container-formulario__campo" required placeholder="Repita a senha criada acima">
+            </div>
         </form>
-        <button type="button" onclick="#" class="botao">Cadastrar</button>
-    </main>
+        
+        <button type="button" onclick="#" class="formulario__botao">Cadastrar</button>
+    </section>
 
     <footer class="rodape">
         <p class="rodape__texto">2022 - Desenvolvido por Alura.</p> <!-- COLOCAR MEU LINKEDIN??? -->
